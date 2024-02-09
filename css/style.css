@@ -161,10 +161,12 @@ section {
 
 @media screen and (max-width: 720px) {
   body {
-    background: url(../free_pokedex_interface_template_by_0tter64_dfpg1yw-fullview.jpg);
+    background: url(../img/free_pokedex_interface_template_by_0tter64_dfpg1yw-fullview.jpg);
   }
   section {
     background-color: transparent;
     box-shadow: none;
+    border: none;
+    padding: 0;
   }
 }
