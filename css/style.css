@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-family: 'Prompt', sans-serif;
   padding: 20px;
   background-image: url(../img/free_pokedex_interface_template_by_0tter64_dfpg1yw-fullview.jpg);
@@ -125,7 +126,7 @@ section {
 }
 
 #container-habilidades p span {
-  font-size: clamp(1.6rem, 0.482rem + 2.353vw, 2.1rem);
+  font-size: clamp(1.4rem, 0.482rem + 2.353vw, 1.5rem);
   color: white;
   text-wrap: nowrap;
   text-shadow: 0 0 10px black;
@@ -137,6 +138,12 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.by-steckler {
+  font-size: 1.7rem;
+  color: black;
+  margin-top: 2px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -159,6 +166,10 @@ section {
   }
   #container-habilidades p {
     margin-bottom: 12px;
+  }
+  .by-steckler {
+    margin-top: 30px;
+    text-align: center;
   }
 }
 
