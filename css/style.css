@@ -112,7 +112,7 @@ section {
   font-size: clamp(1.1rem, 0.206rem + 1.882vw, 1.5rem);
 
   background-color: #c12026;
-  border-radius: 30px;
+  border-radius: 20px;
   margin-bottom: 7px;
   padding: 8px;
   box-shadow: 0 0 10px black;
@@ -156,6 +156,9 @@ section {
   }
   .div-inputs input {
     height: 70px;
+  }
+  #container-habilidades p {
+    margin-bottom: 12px;
   }
 }
 
