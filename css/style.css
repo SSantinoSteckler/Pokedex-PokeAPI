@@ -80,7 +80,7 @@ section {
   border: solid 3px black;
   box-shadow: 10px 10px 0px black;
   margin-top: 20px;
-  height: 680px;
+  height: 550px;
 }
 
 #container h2 {
@@ -113,8 +113,8 @@ section {
 
   background-color: #c12026;
   border-radius: 30px;
-  margin-bottom: 10px;
-  padding: 15px;
+  margin-bottom: 7px;
+  padding: 8px;
   box-shadow: 0 0 10px black;
   cursor: pointer;
   color: rgb(192, 204, 20);
