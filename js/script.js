@@ -35,7 +35,7 @@ function mostrarPokemon(data) {
   $containerHabilidades.innerHTML = `
 <p>PESO =<span> ${data.weight / 10}KG</span>
 </p>
-<p>ALTURA = <span>${data.height}CM</span></p>
+<p>ALTURA = <span>${data.height * 5}CM</span></p>
 <p>TIPO = <span>${data.types[0].type.name.toUpperCase()}</span></p>
 <p>HABILIDAD ESPECIAL = <span> ${data.abilities[1].ability.name.toUpperCase()}</span></p>
 <p> ${data.stats[0].stat.name.toUpperCase()} = <span>${
